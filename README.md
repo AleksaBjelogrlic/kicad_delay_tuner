@@ -12,7 +12,7 @@ Python script to coax KiCad into doing delay instead of length matching. This us
 
    An example vivado IO report is included in this repo.
    
-6. Observe the table for raw length values taken from kicad, calculated delay values, equivalent length values, and suggested rule values to get KiCad to target the longest delay in the netclass
+6. Observe the table for raw length values taken from kicad, calculated delay values, equivalent length values, and suggested rule values to get KiCad to target the longest delay in the netclass. The script will also tell you the net with the maximum delay.
 7. Choose if you want to write the new rules to your rules file when prompted (only if you provided a rules file when running the script)
 8. Reload the rules by going to the custom rules menu from 3. and clicking OK - this forces a reload. I haven't found anything in the API that will do this yet.
 9. Use the KiCad length matching tools as usual and rerun script to taste
